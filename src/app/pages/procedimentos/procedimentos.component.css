@@ -1,0 +1,33 @@
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* div */
+div.view-container{
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+
+/* Card */
+
+/* Botao */
+.btadicionar {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  }
+
+.btstatus {
+    margin-left: 460px;
+}
+
+/* MediaQuery */
+@media (max-width: 720px) {
+  div.agendamentos {
+    grid-template-rows: fr;
+  }
+}
